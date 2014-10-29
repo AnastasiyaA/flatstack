@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @guest_house.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @guest_house.city_id %>
+</p>
+
+<p>
+  <strong>Stars count:</strong>
+  <%= @guest_house.stars_count %>
+</p>
+
+<%= link_to 'Edit', edit_guest_house_path(@guest_house) %> |
+<%= link_to 'Back', guest_houses_path %>
